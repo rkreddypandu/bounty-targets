@@ -1,0 +1,28 @@
+[
+  {
+    "projectHandle": "mobile apps",
+    "companyHandle": "uz leuven",
+    "created": "2016-10-27T07:22:07.9315053",
+    "name": "Nexuzhealth",
+    "description": "Website + Android Apps + iOS Apps\n\nAndroid Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nmynexuz CPV\nThe application is only to be used by personnel of UZ Leuven responsible for transport of patients and no logon information will be given.\n\nmynexuzhealth app\nThis application is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\niOS Apps\nKWS Companion\nThe application is only to be used by doctors and no logon information will be given.\n\nWebsite\nmynexuzhealth website\nThis website is intended to be used by patients in order to consult their private data, their doctors & appointments and more. Login: see below.\n\nIn order to be able to logon to the mynexuzhealth website and app, an ethical hacker will need to request one or more logon credentials via the platform. You can request this information via support (support@intigriti.be). The information they will receive is\n\n   - A user ID of 8 numbers\n   - A PIN code of 4 numbers\n   - A QRCode",
+    "type": 1,
+    "status": 1,
+    "maxPayout": 4000,
+    "logoId": "2a482a00-4215-4d98-9f17-1b0248e02851",
+    "unacceptedProjectTac": false,
+    "showSuspended": true
+  },
+  {
+    "projectHandle": "telenet",
+    "companyHandle": "telenet",
+    "created": "2017-01-25T10:29:49.765659",
+    "name": "Telenet",
+    "description": "At Telenet we place great importance on the security of our systems and data. Despite the measures we take to optimise our security, it is nevertheless possible that something will slip through the net.\n\nShould you discover a security problem, we have a system in place for you to report it to us in a responsible way. We are happy to have your help to improve our systems and protect our customers even better.\n\nImportant!\nAlways operate within legal boundaries when identifying potential security issues. Do not demonstrate security vulnerabilities by performing DDoS attacks, brute force password guessing, social engineering activities, infecting systems with malware, scanning our systems, etc. Such actions will be considered and dealt with as targeted attacks, because they can cause harm to both Telenet and its customers. In such cases, Telenet cannot guarantee that you will not be prosecuted, since there is a risk that the authorities will take the necessary measures in response to such attacks.",
+    "type": 4,
+    "status": 1,
+    "maxPayout": 0,
+    "logoId": "f9d43b2f-c2f5-4ad6-8114-cf21c82d981b",
+    "unacceptedProjectTac": false,
+    "showSuspended": true
+  }
+]

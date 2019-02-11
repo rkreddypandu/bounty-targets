@@ -1,0 +1,82 @@
+{
+  "companyHandle": "intigriti",
+  "companyName": "intigriti",
+  "accepted": null,
+  "deadlinePassed": null,
+  "credentialsLeft": false,
+  "budgetLeft": null,
+  "showSuspended": true,
+  "description": "At intigriti, we practice what we preach. We’ve built the platform with the greatest care and attention for security, but all software contains bugs and we are not exception to this rule. We encourage you to responsibly disclose any security vulnerabilities they may encounter and will reward you accordingly. \n\nIf you would like to report a software bug without a security impact, please report to letstalk@intigriti.com instead.\n\nPlease use the test project for all your tests. Refrain from creating test against our customer's projects.\nhttps://www.intigriti.com/public/project/intigriti/dummy",
+  "rewards": [],
+  "miscellany": [
+    {
+      "id": "7562B45B-8828-460A-AB95-C147A0E4E4DE",
+      "created": "2018-12-12T07:01:29.9166667",
+      "content": null
+    },
+    {
+      "id": "c58e9210-a2f1-4b91-a5c3-1f00714392ed",
+      "created": "2018-12-12T07:17:30.5309977",
+      "content": "#### Guidelines\n\n- Please do NOT use automatic scanners - be creative and do it yourself! We cannot accept any - submissions found by using automatic scanners. Scanners also won't improve your skills, and can cause a high server load (we'd like to put our time in thanking researchers rather than blocking their IP's :-))\n- Please do NOT discuss bugs before they are fixed. You can send us a video as proof of concept, but remember to change its privacy settings to private\n\n#### Reporting Guidelines\n\n- Provide detailed but to-the point reproduction steps\n- Include a clear attack scenario. How will this affect us exactly?\n- Remember: quality over quantity!\n\n#### Researcher Safe Harbor\nWe will not pursue civil action or initiate a complaint to law enforcement for accidental, good faith violations of this policy. We consider activities conducted consistent with this policy to constitute “authorized” conduct under the Computer Fraud and Abuse Act. To the extent your activities are inconsistent with certain restrictions in our (intigriti) General Terms and Conditions, we waive those restrictions for the limited purpose of permitting security research under this policy. We will not file complaint against you for circumventing the technological measures we have used to protect the applications in scope.\n\nIf legal action is initiated by a third party against you and you have complied with our bug bounty policy, intigriti will take steps to make it known that your actions were conducted in compliance with this policy"
+    }
+  ],
+  "domains": [
+    {
+      "id": "1FB594D9-34A2-4278-BEC9-E9303EC44960",
+      "created": "2018-12-12T07:01:29.9166667",
+      "content": null
+    },
+    {
+      "id": "a6eff7d4-10bf-4734-a383-54e48f2f3fac",
+      "created": "2018-12-12T07:18:20.2858637",
+      "content": "- *.intigriti.com\n- *.intigriti.me\n- *.intigriti.io"
+    }
+  ],
+  "faq": [],
+  "tags": [],
+  "type": 1,
+  "status": 1,
+  "created": "2018-01-16T20:14:56.345285",
+  "payouts": [
+    {
+      "id": "1C7D2D40-3B29-498C-83E6-92AFC5524B4C",
+      "created": "2018-12-12T07:01:29.9266667",
+      "payouts": {
+        "lowPayout": 100,
+        "mediumPayout": 500,
+        "highPayout": 1500,
+        "criticalPayout": 3000,
+        "exceptionalPayout": 5000
+      }
+    }
+  ],
+  "inScope": [
+    {
+      "id": "9F8053E1-ABD0-4425-A178-D29CA125317B",
+      "created": "2018-12-12T07:01:29.9166667",
+      "content": "* \\*.intigriti.com\n* \\*.intigriti.me\n* \\*.intigriti.io"
+    }
+  ],
+  "outScope": [
+    {
+      "id": "C191E6A0-A56A-4D8A-A949-34A478C699E3",
+      "created": "2018-12-12T07:01:29.9166667",
+      "content": null
+    },
+    {
+      "id": "1facf8d9-bb5d-48b8-ad94-e87f06b863b6",
+      "created": "2018-12-13T22:00:16.0366743",
+      "content": null
+    },
+    {
+      "id": "76ac4b03-8cdf-473d-9714-a35016d950be",
+      "created": "2019-01-09T16:42:15.5944576",
+      "content": "#### Out-of-scope domains\n\n- blog.intigriti.com\n- kb.intigriti.com\n- autodiscover.intigriti.com\n- go.intigriti.com\n- mail.intigriti.com\n- msoid.intigriti.com\n- news.intigriti.com\n- sip.intigriti.com\n- click.intigriti.com\n- researcheruploads.intigriti.com\n- any intigriti CTF\n\nYou will not receive a reward or your submission might be rejected if they are out of scope or if they are one of the following:\n\n#### General\n\n-\tBest practices concerns\n-\tHighly speculative reports about theoretical damage. Be concrete.\n-\tDDoS or unrealistic Brute Forcing Attacks\n-\tDenial of service or lockout vulnerabilities, e.g. causing a temporary ban by triggering maliciously crafted requests on the client\n-\tUsername/email/program name enumeration\n-\tPublicly accessible login panels - These generally have low security impact\n-\tReports that state that software is out of date/vulnerable without proven exploitable risks\n-\tVulnerabilities as reported by automated tools without additional analysis as to how they're an issue in the context of our tool\n-\tPhysical or social engineering attempts (this includes phishing attacks against employees)\u2028 \nApplication\n-\tClickjacking on non-sensitive pages (sensitive pages are pages where confidential information is requested like passwords, credit card information,… e.g. logon pages, registration pages,…)\n-\tUser enumeration\n-\tSpamming / annoying other users with emails or notifications\n- CSV injection\n-\tMissing rate limits\n-\tHomograph attacks\n-\tFingerprinting attacks that do not reveal sensitive information\n-\tE-mail bombing\n-\tAttacks that require physical access to an user's device\n-\tPlain text injection\n\n#### Infrastructure\n-\tOpen ports without an accompanying proof-of-concept demonstrating vulnerability\n-\tRecently disclosed 0day vulnerabilities in commercial products where no patch or a recent patch (< 2 weeks) is available. We need time to patch our systems just like everyone else - please give us 2 weeks before reporting these types of issues.\nWeak/expired SSL configurations and SSL/TLS scan reports (this means output from sites such as SSL Labs)"
+    }
+  ],
+  "submissionCount": 69,
+  "pentestSettings": null,
+  "name": "intigriti",
+  "handle": "intigriti",
+  "logoId": "be839e97-d56d-4754-b387-81b995f4631d"
+}
